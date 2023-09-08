@@ -70,9 +70,35 @@
     border: none;
     font-family: "AudiLight";
     text-transform: uppercase;
+    font-size: 22px;
+    cursor: pointer;
 }
 
 .containerButton img{
     width: 50px;
     height: 50px;
+}
+
+@media (max-width: 768px) {
+    .body{
+        flex-direction: column;
+        width: 100%;
+    }
+    .containerButton{
+        position: relative;
+        padding-bottom: 0;
+    }
+
+    .header img{
+        width: 100%;
+        height: 100px;
+    }
+
+    .containerBodyAudi, .containerBodyDucati{
+        justify-content: space-around;
+    }
+
+    .header{
+        height: 100px;
+    }
 }
