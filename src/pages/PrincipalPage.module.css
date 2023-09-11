@@ -95,10 +95,22 @@
     }
 
     .containerBodyAudi, .containerBodyDucati{
-        justify-content: space-around;
+        justify-content: center;
+        gap:40px;
     }
 
     .header{
         height: 100px;
     }
+
+    .containerBodyAudi .imgaudi{
+        width: 300px;
+        height: 100px;
+    }
+
+    .containerBodyDucati .imgducati{
+        width: 200px;
+        height: 200px;
+    }
+    
 }
